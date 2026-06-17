@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "06-nhost-reactnative-tutorial",
+    "slug": "06-nhost-reactnative-tutorial",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "NHOST_REGION": "ap-southeast-1",
+      "NHOST_SUBDOMAIN": "hiivkyzyfgszgxmtbvtp"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
